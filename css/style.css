@@ -1,0 +1,33 @@
+body{
+  background-color: rgb(109, 109, 109);
+}
+div{
+  /* border:3px solid black; */
+}
+
+main{
+  height: 50vh;
+  width: 580px;
+  margin: 0 auto;
+  border : 1px solid black;
+  background-color: rgb(155, 155, 155);
+  display: grid;
+  grid-template-areas: 
+'wh01 wh02 wh02 wh02 wh02 wh02 wh02 wh02 wh03 wh03 wh03 wh03 wh03 wh03 wh03 wh03 wh04 ye01 '
+'wh01 bl01 bl01 bl01 bl01 bl01 bl01 bl01 wh05 wh05 wh04 bl02 bl02 bl02 bl02 bl02 wh04 ye01 '
+'wh01 bl01 bl01 bl01 bl01 bl01 bl01 bl01 wh05 wh05 wh04 bl02 bl02 bl02 bl02 bl02 wh04 ye01 '
+'da01 wh55 wh55 da02 wh06 wh06 wh06 wh07 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01 '
+'da01 wh55 wh55 da02 wh06 wh06 wh06 wh07 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01 '
+'da01 wh55 wh55 da02 wh06 wh06 wh06 wh07 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01 '
+'da01 wh55 wh55 da02 wh06 wh06 wh06 wh07 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01 '
+'da01 wh55 wh55 da02 wh06 wh06 wh06 wh07 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01 '
+'da01 wh55 wh55 da02 ye03 re03 re03 re03 bl03 bl03 bl03 wh08 wh08 wh08 wh08 wh09 da03 da03 '
+'da01 wh55 wh55 da02 ye03 re03 re03 re03 bl03 bl03 bl03 wh08 wh08 wh08 wh08 wh09 da03 da03 '
+'wh10 re04 re04 da04 ye04 wh11 wh11 wh11 wh11 wh11 wh12 wh12 wh12 bl04 bl04 ye05 wh13 wh13 '
+'wh10 re04 re04 da04 ye04 wh11 wh11 wh11 wh11 wh11 wh12 wh12 wh12 bl04 bl04 ye05 wh13 wh13 '
+'wh10 re04 re04 da04 ye04 wh11 wh11 wh11 wh11 wh11 wh12 wh12 wh12 bl04 bl04 ye05 wh13 wh13 '
+'wh10 re04 re04 da04 ye04 wh11 wh11 wh11 wh11 wh11 wh12 wh12 wh12 bl04 bl04 ye05 wh13 wh13 '
+'wh10 re04 re04 da04 ye04 re05 re05 re05 da06 da06 da06 da06 da06 wh14 wh14 wh14 wh14 wh14 '
+'wh14 wh14 wh14 wh14 ye04 re05 re05 re05 da06 da06 da06 da06 da06 wh14 wh14 wh14 wh14 wh14 '
+'wh14 wh14 wh14 wh14 ye04 re05 re05 re05 da06 da06 da06 da06 da06 wh14 wh14 wh14 wh14 wh14 '
+}
