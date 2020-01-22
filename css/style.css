@@ -4,6 +4,12 @@
 h1,h2{
   text-align: center;
 }
+a{
+  text-decoration: none;
+  font-style: italic;
+  font-size: 1vw;
+  color:grey;
+}
 body{
   background-color: rgb(243, 241, 230);
   display: flex;
