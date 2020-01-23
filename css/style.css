@@ -1,15 +1,24 @@
-*{
-  font-family: Helvetica, sans-serif;
+@font-face{
+  font-family:"hand";
+  src: url("../fonts/PatrickHand-Regular.ttf");
 }
+
+*{
+font-family: "hand";
+letter-spacing: 2px;
+}
+
 h1,h2{
   text-align: center;
 }
+
 a{
   text-decoration: none;
   font-style: italic;
   font-size: 1vw;
   color:grey;
 }
+
 body{
   background-color: rgb(243, 241, 230);
   display: flex;
@@ -17,17 +26,23 @@ body{
   justify-content: center;
   align-items: center;
 }
+
 #public{
   position: relative;
   bottom:0;
 }
+
+div{
+  background-repeat: repeat;
+}
+
 main{
-  border: 10px solid black;
+  padding: 7px;
   background-color: black;
   height: 400px;
   width: 566px;
   display: grid;
-  gap: 10px 10px;
+  gap: 7px ;
   grid-template-areas: 
 
 'wh01 wh02 wh02 wh02 wh02 wh02 wh02 wh02 wh03 wh03 wh03 wh03 wh03 wh03 wh03 wh03 wh04 ye01 '
@@ -89,21 +104,26 @@ main{
 #item33{grid-area: da04;}
 
 #item1,#item2,#item3,#item4,#item5,#item6,#item7,#item8,#item9,#item10,#item11,#item12,#item13,#item14,#item15,#item00{
+  background-image: url(../img/texture_blanc.png);
   background-color: white;
 }
 
 #item16,#item17,#item18,#item19{
+  background-image: url(../img/texture_bleu.png);
   background-color: blue;
 }
 
 #item20,#item21,#item22,#item23,#item24{
+  background-image: url(../img/texture_jaune.png);
   background-color: yellow;
 }
 
 #item25,#item26,#item27,#item28,#item29{
+  background-image: url(../img/texture_rouge.png);
   background-color: red;
 }
 
 #item30,#item31,#item32,#item33{
+  background-image: url(../img/texture_noir.png);
   background-color: black;
 }
