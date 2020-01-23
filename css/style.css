@@ -25,6 +25,8 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(../img/texture_mur.jpg);
+  background-repeat: repeat;
 }
 
 #public{
